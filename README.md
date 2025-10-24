@@ -2,6 +2,8 @@
 
 A small, opinionated gardening advice tool that gives tips by month or season.
 
+![Python tests](https://github.com/YadavThapa/garden-app/actions/workflows/python-tests.yml/badge.svg)
+
 This repository contains a minimal Python script (`garden_advice.py`) that exposes testable functions and a tiny CLI. Advice is loaded from `advice_data.json` (if present) and falls back to built-in defaults.
 
 Quick start
@@ -30,6 +32,19 @@ Run tests
 ```pwsh
 cd 'c:\Users\hemja\OneDrive\Desktop\garden-app\remote'
 python -m unittest discover -v
+```
+
+Development
+
+Create and activate a virtual environment, then run tests:
+
+```pwsh
+cd 'c:\Users\hemja\OneDrive\Desktop\garden-app\remote'
+python -m venv .venv
+. .venv/Scripts/Activate.ps1
+python -m pip install --upgrade pip
+# (optional) pip install -r requirements.txt
+python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 Notes
