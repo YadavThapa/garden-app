@@ -1,4 +1,4 @@
-# garden_advice.py
+# Hyperion Dev - Git Workflows garden_advice project.
 """garden_advice.py
 
 Small helper to provide gardening advice by month or season.
