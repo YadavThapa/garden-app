@@ -13,3 +13,7 @@ Acceptance criteria
 Notes
 
 - TODO comments in `garden_advice.py` reference this issue.
+
+Status: CLOSED (merged into `main`)
+
+Merged PR: `issue-1-refactor-functions` -> `main`

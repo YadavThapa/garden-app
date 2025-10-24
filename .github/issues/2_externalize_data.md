@@ -13,3 +13,7 @@ Acceptance criteria
 Notes
 
 - This complements Issue #1 by making functions read from data rather than hardcoded values.
+
+Status: CLOSED (merged into `main`)
+
+Merged PR: `issue-2-externalize-data` -> `main`
